@@ -17,6 +17,7 @@ int main()
         sum+=*(arr+i);
     }
     int average=sum/n;
-  printf("the average of the array elements is %d",average);
+    printf("the average of the array elements is %d",average);
+    free(arr);
     return 0;
 }
