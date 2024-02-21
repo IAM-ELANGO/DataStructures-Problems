@@ -17,5 +17,6 @@ int main()
         sum+=*(arr+i);
     }
     printf("The sum of array elements is %d",sum);
+    free(arr);
     return 0;
 }
