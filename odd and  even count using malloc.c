@@ -23,5 +23,6 @@ int main()
       }
     }
     printf("oddcount:%d\nevencount:%d",oddcount,evencount);
+    free(arr);
     return 0;
 }
