@@ -29,6 +29,6 @@ int main()
       printf("%d\n",*(arr3+i));
     }
     
-   
+   free(arr);
     return 0;
 }
