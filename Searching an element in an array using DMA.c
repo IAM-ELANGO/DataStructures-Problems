@@ -31,4 +31,5 @@ int main()
     printf("the element is not present in the array");
   }
     return 0;
+    free(arr);
 }
