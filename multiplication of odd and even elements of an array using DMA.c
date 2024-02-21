@@ -23,5 +23,6 @@ int main()
       }
     }
     printf("oddmul:%d\nevenmul:%d",oddmul,evenmul);
+    free(arr);
     return 0;
 }
